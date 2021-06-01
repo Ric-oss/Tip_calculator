@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="wraper">
+          
+          <p>Bill Amount</p>
+          <input type="text" id="billamt" placeholder="Amount to be paid"> $
+        
+        
+        <p>How was the service ?</p>
+        <select id="serviceQual">
+              <option selected>--Choose an Option--</option>
+                <option value="0.3">30% - Excellent</option>
+                <option value="0.25">25% - Very Good</option>
+                <option value="0.2">20% - Good</option>
+                <option value="0.15">15% Average</option>
+                <option value="0.1">10% - Bad</option>
+                <option value="0.05">5% - Worst</option>
+        </select>
+        
+        <p>Total number of persons</p>
+        <input type="text" id="peopleamt" placeholder="Number of people sharing the bill">
+        <button id="calculate" onclick="calculate()">Calculate</button>
+        </div>
+        
+                  <h3 id="total"></h3>
+        </div>
+        
+</body>
+</html>
